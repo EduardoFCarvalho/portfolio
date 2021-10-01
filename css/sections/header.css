@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100px;
+  text-align: center;
+  background: var(--color-header-bgd);
+  padding-bottom: 40px;
+}
+
+.menu ul li {
+  line-height: 60px;
+}
+
+.menu ul li a {
+  font-size: 22px;
+  padding: 10px;
+}
+
+.menu a:hover {
+  color: var(--hover-color);
+}
+
+.midias {
+  line-height: 40px;
+}

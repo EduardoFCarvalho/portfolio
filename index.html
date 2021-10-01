@@ -7,7 +7,7 @@
   <title>Portfólio</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="theme-dark">
 
   <div class="container">
     <header class="header">
@@ -37,15 +37,17 @@
 
     <main class="main">
       <div>
-        <button>Trocar Tema</button>
+        <button id="mudar-tema">Trocar Tema</button>
         <div class="title">
           <h1>Olá, </h1>
           <h1>Eu sou o Eduardo,</h1>
           <h1>Desenvolvedor Front End jr.</h1>
         </div>
-        <button>Contatos</button>
-        <h4>Tel: (11) 95903-9451</h4>
-        <h4>E-mail: edufcarvalho@gmail.com</h4>
+        <button id="hide-element" onclick="hideElement()">Contatos</button>
+        <div>
+          <h4>Tel: (11) 95903-9451</h4>
+          <h4>E-mail: edufcarvalho@gmail.com</h4>
+        </div>
       </div>
     </main>
   </div>

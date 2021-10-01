@@ -1,0 +1,32 @@
+.main {
+  display: flex;
+  margin-top: 11%;
+  padding-left: 100px;
+}
+
+.main button {
+  font-weight: bold;
+  padding: 10px 20px;
+  border: 4px double var(--font-color);
+  border-radius: 100px;
+  background: var(--color-bgd);
+  color: var(--font-color);
+}
+
+.main button:hover {
+  border-color: var(--hover-color);
+  color: var(--hover-color);
+}
+
+.title {
+  font-size: 1.75em;
+  line-height: 2.5em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.8);
+}
+
+.main h4 {
+  margin-top: 15px;
+  margin-left: 100px;
+}

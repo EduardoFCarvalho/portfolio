@@ -1,0 +1,19 @@
+.email {
+  display: flex;
+  flex-direction: column;
+  margin: auto auto;
+}
+
+.email input {
+  color: #252525;
+  margin-bottom: 20px;
+}
+
+.email textarea {
+  color: #252525;
+  margin-bottom: 20px;
+}
+
+.email button {
+  padding: 10px 20px;
+}
