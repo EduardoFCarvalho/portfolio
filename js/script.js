@@ -1,7 +1,8 @@
 const botaoMudarTema = document.getElementById('mudar-tema');
 
 function setTheme(themeName) {
-
+  localStorage.setItem('theme', themeName)
+  document.body.className = themeName;
 }
 
 function mudarTema() {
@@ -12,7 +13,14 @@ function mudarTema() {
   }
 }
 
-botaoMudarTema.addEventListener('click', mudarTema);
+if (botaoMudarTema !== null) {
+  botaoMudarTema.addEventListener('click', mudarTema);
+}
+
+const theme = localStorage.getItem('theme');
+if (theme) {
+  setTheme(theme)
+}
 
 
 // Esconder elemento contatos
