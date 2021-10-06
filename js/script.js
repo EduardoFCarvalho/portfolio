@@ -18,8 +18,10 @@ if (botaoMudarTema !== null) {
 }
 
 const theme = localStorage.getItem('theme');
-if (theme) {
+if (theme != null) {
   setTheme(theme)
+} else {
+  setTheme('theme-dark');
 }
 
 

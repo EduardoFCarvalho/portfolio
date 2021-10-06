@@ -16,4 +16,14 @@
 
 .email button {
   padding: 10px 20px;
+  border: 4px double var(--font-color);
+  border-radius: 100px;
+  font-weight: bold;
+  background: var(--color-bgd);
+  color: var(--font-color);
+}
+
+.email button:hover {
+  border-color: var(--hover-color);
+  color: var(--hover-color);
 }

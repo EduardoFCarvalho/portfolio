@@ -11,7 +11,7 @@
   font-weight: bold;
   text-transform: uppercase;
   padding: 2.25em 0;
-  text-shadow: 3px 3px rgba(0, 0, 0, 0.8);
+  text-shadow: 2px 2px var(--shadow-color);
 }
 
 .project-ext {
@@ -40,14 +40,14 @@
   margin-left: 20px;
   width: 23px;
   height: 23px;
-  border-color: #e8e8e8;
+  border-color: var(--font-color);
   border-radius: 50%;
-  background: #282828;
-  color: #e8e8e8;
+  background: var(--color-bgd);
+  color: var(--font-color);
   vertical-align: middle;
 }
 
 .project-ext button:hover {
-  color: #282828;
+  color: var(--font-color);
   background: var(--hover-color);
 }
