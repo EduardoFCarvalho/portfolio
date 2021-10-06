@@ -24,3 +24,14 @@
 .midias {
   line-height: 40px;
 }
+
+.midias img {
+  width: 40%;
+  border: 3px solid var(--color-bgd);
+  border-radius: 50%;
+}
+
+.midias img:hover {
+  border-color: var(--hover-color);
+  background: var(--hover-color);
+}
