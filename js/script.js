@@ -1,8 +1,10 @@
 import mudarTema from './modules/mudarTema.js';
 import hideElement from './modules/hideElement.js';
+import projectElementHide from './modules/projetosElementHide.js';
 
 mudarTema();
 hideElement();
+projectElementHide();
 
 
 
