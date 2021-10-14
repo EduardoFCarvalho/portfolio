@@ -8,6 +8,11 @@
   padding-bottom: 40px;
 }
 
+.header-icon img {
+  width: 80%;
+  padding-top: 10px;
+}
+
 .menu ul li {
   line-height: 60px;
 }
@@ -27,7 +32,8 @@
 
 .midias img {
   width: 40%;
-  border: 3px solid var(--color-bgd);
+  border: 3px solid var(--font-color);
+  background-color: var(--color-bgd);
   border-radius: 50%;
 }
 

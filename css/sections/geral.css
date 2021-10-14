@@ -15,17 +15,21 @@ body {
 /* Alteração de tema */
 .theme-light {
   --color-bgd: #e8e8e8;
+  --img-bgd: url("../../img/bgd-img02.png");
   --color-header-bgd: #b8b8b8;
   --font-color: #282828;
   --hover-color: #20b2aa;
   --shadow-color: rgba(255, 255, 255, 0.8);
+  --img-capa: url("../../img/capa-2.png");
 }
 .theme-dark {
   --color-bgd: #282828;
+  --img-bgd: url("../../img/bgd-img03.png");
   --color-header-bgd: #181818;
   --font-color: #e8e8e8;
   --hover-color: #20b2aa;
   --shadow-color: rgba(0, 0, 0, 0.8);
+  --img-capa: url("../../img/capa-1.png");
 }
 /* ----------------------- */
 

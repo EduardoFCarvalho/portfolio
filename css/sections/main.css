@@ -1,7 +1,15 @@
 .main {
   display: flex;
-  margin-top: 11%;
+  flex: 1;
+  padding-top: 11%;
   padding-left: 100px;
+}
+
+.bgd {
+  background: var(--img-bgd);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: 80%;
 }
 
 .main button {
@@ -29,4 +37,19 @@
 .main h4 {
   margin-top: 15px;
   margin-left: 100px;
+}
+
+.perfil-capa {
+  display: flex;
+  height: 471px;
+  margin-left: 10%;
+  margin-right: 20px;
+}
+
+.perfil-img {
+  width: 300px;
+  background-image: var(--img-capa);
+  background-size: cover;
+  opacity: 0.8;
+  border-radius: 10px;
 }
