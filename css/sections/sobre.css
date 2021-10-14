@@ -1,7 +1,10 @@
 .sobre {
-  display: block;
+  display: flex;
+  flex: 1;
   width: 70%;
-  margin: auto auto;
+  height: 100vh;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .sobre-itens h2 {
