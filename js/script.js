@@ -1,10 +1,10 @@
 import mudarTema from './modules/mudarTema.js';
 import hideElement from './modules/hideElement.js';
-import projectElementHide from './modules/projetosElementHide.js';
+import initAccordion from './modules/accordionList.js';
 
 mudarTema();
 hideElement();
-projectElementHide();
+initAccordion();
 
 
 

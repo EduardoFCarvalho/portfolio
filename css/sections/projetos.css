@@ -28,6 +28,7 @@
 
 .project-ext dt {
   font-size: 1.5em;
+  margin-top: 10px;
 }
 
 .project-ext dd {
@@ -42,7 +43,7 @@
   width: 23px;
   height: 23px;
   border-color: var(--font-color);
-  border-radius: 50%;
+  border-radius: 30%;
   background: var(--color-bgd);
   color: var(--font-color);
   vertical-align: middle;
@@ -53,6 +54,22 @@
   border-color: var(--hover-color);
 }
 
-.hide-description {
+.js-accordion dd {
   display: none;
+}
+
+.js-accordion dd.ativo {
+  display: block;
+  animation: slideDown 0.5s forwards;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 100px;
+  }
 }
