@@ -1,4 +1,4 @@
-export default function hideElement() {
+export default function initHideElement() {
 
   const botaoElemento = document.getElementById("hide-element");
 

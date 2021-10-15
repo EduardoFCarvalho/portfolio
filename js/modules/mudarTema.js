@@ -1,4 +1,4 @@
-export default function mudarTema() {
+export default function initMudarTema() {
 
   const botaoMudarTema = document.getElementById('mudar-tema');
 
