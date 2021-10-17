@@ -2,10 +2,11 @@ export default function initHideElement() {
 
   const botaoContato = document.getElementById("hide-element");
 
-  function hideContato() {
-    this.nextElementSibling.classList.toggle('ativo');
+  if (botaoContato) {
+    function hideContato() {
+      this.nextElementSibling.classList.toggle('ativo');
+    }
+  
+    botaoContato.addEventListener('click', hideContato);
   }
-
-  botaoContato.addEventListener('click', hideContato);
-
 }
