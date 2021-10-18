@@ -1,20 +1,20 @@
-.email {
+#contatoForm {
   display: flex;
   flex-direction: column;
   margin: auto auto;
 }
 
-.email input {
+#contatoForm input {
   color: #252525;
   margin-bottom: 20px;
 }
 
-.email textarea {
+#contatoForm textarea {
   color: #252525;
   margin-bottom: 20px;
 }
 
-.email button {
+#contatoForm button {
   padding: 10px 20px;
   border: 4px double var(--font-color);
   border-radius: 100px;
@@ -23,7 +23,7 @@
   color: var(--font-color);
 }
 
-.email button:hover {
+#contatoForm button:hover {
   border-color: var(--hover-color);
   color: var(--hover-color);
 }
