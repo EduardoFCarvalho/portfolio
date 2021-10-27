@@ -3,9 +3,11 @@
   flex-direction: column;
   justify-content: space-between;
   width: 100px;
+  height: 100vh;
   text-align: center;
   background: var(--color-header-bgd);
   padding-bottom: 40px;
+  position: fixed;
 }
 
 .header-icon img {
