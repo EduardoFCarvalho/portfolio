@@ -10,12 +10,13 @@
 
 body {
   background: var(--color-bgd);
+  overflow-y: overlay;
 }
 
 /* Alteração de tema */
 .theme-light {
   --color-bgd: #e8e8e8;
-  --img-bgd: url("../../img/bgd-img02.png");
+  --img-bgd: url("../../img/light_theme_bgd.png");
   --color-header-bgd: #b8b8b8;
   --font-color: #282828;
   --hover-color: #20b2aa;
@@ -24,7 +25,7 @@ body {
 }
 .theme-dark {
   --color-bgd: #282828;
-  --img-bgd: url("../../img/bgd-img03.png");
+  --img-bgd: url("../../img/dark_theme_bgd.png");
   --color-header-bgd: #181818;
   --font-color: #e8e8e8;
   --hover-color: #20b2aa;
@@ -45,4 +46,10 @@ button {
 
 .ocultar {
   display: none;
+}
+
+.bgd {
+  background: var(--img-bgd);
+  background-repeat: no-repeat;
+  background-position: top;
 }

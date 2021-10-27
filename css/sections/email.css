@@ -1,5 +1,6 @@
 #contatoForm {
   display: flex;
+  width: 40%;
   flex-direction: column;
   margin: auto auto;
 }

@@ -3,13 +3,7 @@
   flex: 1;
   padding-top: 11%;
   padding-left: 100px;
-}
-
-.bgd {
-  background: var(--img-bgd);
-  background-repeat: no-repeat;
-  background-position: center left;
-  background-size: 80%;
+  justify-content: center;
 }
 
 .main button {
